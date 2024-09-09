@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+    font-family: sans-serif;
+}
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+
+.link-group {
+    list-style: none;
+    display: flex;
+}
+
+.link a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 20px;
+    line-height: 80px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.serachbar {
+    width: 270px;
+    height: 37px;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid orange;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.serachbar>button {
+    width: 100px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    border: none;
+}
+
+.main_body {
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    margin-top: 125px;
+    width: 55%;
+    height: 600px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.text h1{
+    color: white;
+    font-size: 4rem;
+    margin: 15px;
+
+}
+.text h2{
+    color: orange;
+    font-size: 4.2rem;
+    margin: 15px;
+}
+.text .p1{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+
+}
+.text  button{
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+
+.login-page {
+    margin-top: 125px;
+    width: 25%;
+    height: 600px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .right {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 550px;
+}
+.login-page .right h2 {
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.login-page .right input[type="text"],
+.login-page .right input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: none;
+    border-bottom: 2px solid orange;
+    background-color: #333;
+    color: white;
+    height: 70px;
+}
+.login-page .right button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.login-page .right p {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+}
+.login-page .right p a {
+    color: orange;
+    text-decoration: none;
+
+}
+.login-page .right .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.login-page .right .social-icons a {
+    color: white;
+    margin: 0 5px;
+    font-size: 20px;
+}
